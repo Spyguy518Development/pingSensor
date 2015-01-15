@@ -14,7 +14,7 @@ void setup() {
 
   // setup pingSensor object.
   // defaults to 'cm' units of measurement.
-  myPinger = new pingSensor(TRIGGER_PIN, ECHO_PIN, MAX_PING_DISTANCE);
+  myPing = new pingSensor(TRIGGER_PIN, ECHO_PIN, MAX_PING_DISTANCE);
 }
 
 void loop() {
